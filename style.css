@@ -1,0 +1,114 @@
+*{  
+    margin: 0%;
+    box-sizing: border-box;
+}
+div{
+    float: left;
+}
+
+
+
+.numb{
+    float: right;
+    text-align: right;
+}
+.nav1{
+    background-color: aquamarine;
+    padding: 8px;
+
+}
+.nav2{
+    width: 100%;
+    background-color: blue;
+    float: left;
+    padding: 10px;
+    margin-top: 15px;
+    background-image: url("./Images/backIMG.jpg");
+
+}
+.title{
+    width: 30%;
+}
+.titleimg{
+    height: 50px;
+    width: 40%;
+    float: left;
+    
+}
+.name{
+    width: 60%;
+     padding-top:100px;
+     color: brown;
+}
+
+/* .list{
+    display: inline;
+} */
+/* .menu{
+    width: 50%;
+    padding-left: 50px;
+} */
+.items{
+    list-style-type: none;
+    color: white;
+    /* padding-left: 10%; */
+    background-color:red;
+    text-align: right;
+}
+.items>li{
+    display: inline-flex;
+    padding-left: 4px;
+}
+.items>li:hover{
+    color: blueviolet;
+}
+.heading{
+    padding: 100px;
+    text-align: center;
+    word-spacing: 10%;
+}
+.imgSection>img{
+    display: inline-flex;
+}
+.web{
+    width: 33%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: green;
+}
+.web>img{
+    width: 20%;
+    height: 20%;
+}
+.android{
+    width: 34%;
+    text-align: center;
+background-color: red;
+}
+.android>img{
+    width: 20%;
+    height: 20%;
+}
+.ios{
+    width: 33%;
+    text-align: center;
+    background-color: blue;
+}
+.ios>img{
+    width: 20%;
+    height: 20%;
+}
+.about>div{
+    display: inline-flex;
+}
+.zn>.pros{
+    width: 30%;
+    background-color: green;
+    list-style-type: none;
+}
+.right{
+    width: 70%;
+    background-color: red;
+}
+
+
